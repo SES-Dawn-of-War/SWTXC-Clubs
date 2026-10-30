@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Zacheriah Garcia, Me, Myself, and I
+	contact.html
+	October 28, 2026
+ -->
+<html lang="en">
+<head>
+	<title>How to Contact | SWTXC Clubs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact us by (830) 956-1969 or via email.">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/ico" sizes="32x32" href="images/favicon-student.ico">
+</head>
+
+<body>
+	<div class="body-content">
+	
+	<!-- Hamburger -->
+		<nav class="mobile-nav">
+			<div id="menu-link">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="clubs.html">Clubs</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<header id="clubs-text-logo">
+			<h1>SWTXC Clubs</h1>
+		</header>
+
+		<nav class="tab-desk" id="links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="clubs.html">Clubs</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	<!-- Used to add the main content to the webpage -->
+		<main>
+		
+			<div id="contact">
+				<h2>Reach us by:</h2>
+					<p class="tel-link round mobile"><a href="tel:8309561969">(830) 956-1969</a></p>
+					<p class="tab-desk">(830) 956-1969</p>
+					<p>Or</p>
+					<p>Email: <a class="link" href="mailto:swtxc.clubs@swtxc.edu">swtxc.clubs@swtxc.edu</a>
+					<p>Address: <a class="link" href="https://maps.app.goo.gl/Wfx6sJM1mtuMLUUU6">2401 Garner field Rd, Uvalde, TX 78801</a></p>
+			</div>
+			
+			<div id="form">
+				<h2>Complete the form below to register for Clubs!</h2>
+					<form class="form-grid"><!-- Start Form -->
+						<fieldset>
+							<legend>Contact Information</legend>
+								<p>Please input your information here:</p>
+									<label for="fName">First Name:</label>
+									<input type="text" name="fName" id="fName">
+									
+									<label for="lName">Last Name:</label>
+									<input type="text" name="lName" id="lName">
+									
+									<label for="email">Email:</label>
+									<input type="email" name="email" id="email">
+									
+									<label for="phone">Phone:</label>
+									<input type="tel" name="phone" id="phone">
+									
+									<label for="start-date">Date of Submission:</label>
+									<input type="date" id="start-date" name="trip_start">
+						</fieldset>
+						
+						<fieldset>
+							<legend>Club Selection</legend>
+								<p>I would like enroll in:</p>
+									<label for="tableclub"><input type="checkbox" name="info" id="tableclub">Table Top Club</label>
+									
+									<label for="wellclub"><input type="checkbox" name="info" id="wellclub">Student Wellness Club</label>
+									
+									<label for="almas"><input type="checkbox" name="info" id="almas">SWTXC ALMAS</label>
+									
+									<label for="trio"><input type="checkbox" name="info" id="trio">TRiO Student Support Services</label>
+									
+									<label for="ascender"><input type="checkbox" name="info" id="ascender">Ascender Club</label>
+									
+									<label for="questions">Any additional questions about these clubs? Answer here:</label>
+									<textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+						</fieldset>
+						
+						<input type="submit" id="submit" value="Submit" class="btn">
+					</form>
+			</div>
+
+			<div id="container">
+				<p><span class="action"> If you are or travel to campus in Uvalde, TX, and need to speak with us personally, please notify the office members about our website and they will direct you accordingly. Thank you!</span></p>
+			</div>
+				
+			<div id="image">
+				<img src="images/logo.png" alt="swtxc logo"  class="round center-img">
+			</div>
+		</main>
+
+		<footer>
+			<div class="copyright">
+				<p>&copy; Copyright 2026. All Rights Reserved.</p>
+				<p><a href="mailto:swtxc.clubs@swtxc.edu">swtxc.clubs@swtxc.edu</a></p>
+				<p><a href="https://www.swtxc.edu/">Southwest Texas Collage</a></p>
+			</div>
+			<div class="social">
+				<a href="https://www.facebook.com/southwesttexascollege/" target="_blank"><img src="images/facebook-48.png" alt="Facebook logo"></a>
+				<a href="https://x.com/SWTXCollege" target="_blank"><img src="images/x-48.png" alt="X (Twitter) logo"></a>
+				<a href="https://www.instagram.com/southwesttexascollege/" target="_blank"><img src="images/instagram-48.png" alt="Instagram logo"></a>
+			</div>
+		</footer>
+
+	</div>
+	
+		<script src="scripts/script.js"></script>
+		
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- Zacheriah Garcia, Me, Myself, and I
+	Clubs.html
+	October 28, 2026
+ -->
+<html lang="en">
+<head>
+	<title>Listed Clubs | SWTXC Clubs</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="SWTXC Clubs lists a few clubs deemed to be helpful and fun to club searchers.">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/ico" sizes="32x32" href="images/favicon-student.ico">
+</head>
+
+<body>
+	<div class="body-content">
+	
+	<!-- Hamburger -->
+		<nav class="mobile-nav">
+			<div id="menu-link">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="clubs.html">Clubs</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<header id="clubs-text-logo">
+			<h1>SWTXC Clubs</h1>
+		</header>
+
+		<nav class="tab-desk" id="links">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="clubs.html">Clubs</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	<!-- Used to add the main content to the webpage -->
+		<main class="grid">
+		
+			<div id="info">
+				<h2>Available Clubs</h2>
+				<p>We have selected several clubs we believe would help the average student along with life at SWTXC. These clubs assist more within the perameters of having some fun and more personal help.</p>
+				
+				<p>At this time, only five have been selected for attention.</p>
+				
+				<p>Here is an example of background music played during game night in the Table Top Club</p>
+				<audio controls>
+					<source src="media/Glory-Be.mp3" type="audio/mp3">
+					<source src="media/Glory-Be.ogg" type="audio/ogg">
+					<p>Your browser does not support these audio elements.</p>
+				</audio>
+			</div>
+
+			<div id="club-list">
+			
+				<figure>
+					<img src="images/students-working-together.jpg" alt="students stitting at a table while working" class="round">
+					<figcaption>This is an example of fellow students helping other students in the Student Wellness Club.</figcaption>
+				</figure>
+				
+					<h3 class="padding">Clubs inlcude:</h3>
+						<ul>
+							<li>Table Top Club</li>
+							<li>Student Wellness Club</li>
+							<li>SWTXC ALMAS</li>
+							<li>TRiO Student Support Services</li>
+							<li>Ascender Club</li>
+						</ul>
+			</div>
+			
+			<aside>
+				<p class="tab-desk"><span class="action">Interested in other clubs? Go to <a class="link" href="https://www.swtxc.edu/campus-life/events/clubs.html">swtxc.edu/campus-life/events/clubs.html</a> for a complete list of available clubs.</span></p>
+			</aside>
+			
+			<div class="mobile">
+				<h3>Extended Details:</h3>
+					<p>-Table Top Club: Student Club</p>
+					<p>-Student Wellness Club: Student Support & Services</p>
+					<p>-SWTXC ALMAS: Cultural / Special Interest Club</p>
+					<p>-TRiO Student Support Services: Federal Grant Program</p>
+					<p>-Ascender Club: Academic / Student Program Club</p>
+			</div>
+			
+			<div id="schedule" class="tab-desk">
+				<table>
+					<caption>Club Details</caption>
+				<!-- WARNING: Some data may be outdated! -->
+						<tr><!-- Row 1 -->
+							<th colspan="5">Provided below are extended details of each club:</th>
+						</tr>
+						<tr><!-- Row 2 -->
+							<th>Name of Club</th>
+							<th>Type of Club</th>
+							<th>Purpose of Club</th>
+							<th>Sponsor of Club</th>
+							<th>Meeting Location of Club</th>
+						</tr>
+						<tr><!-- Row 3 -->
+							<td>Table Top Club</td>
+							<td>Student Club</td>
+							<td>A social and recreational club centered around board games, card games, and tabletop gaming.</td>
+							<td>Ryan Alldritt</td>
+							<td>Student Activities Lounge (Uvalde)</td>
+						</tr>
+						<tr><!-- Row 4 -->
+							<td>Student Wellness Club</td>
+							<td>Student Support & Services</td>
+							<td>Promotes mental health, counseling resources, success coaching, and wellness spaces.</td>
+							<td>Teresa Crow (Success Coach)</td>
+							<td>Student Success Center (Building S, Uvalde)</td>
+						</tr>
+						<tr><!-- Row 5 -->
+							<td>SWTXC ALMAS</td>
+							<td>Cultural / Special Interest Club</td>
+							<td>Promotes cultural awareness, community building, and student engagement among campus members.</td>
+							<td>Olivia Guerrero-Rish</td>
+							<td>Uvalde Campus / Student Activities</td>
+						</tr>
+						<tr><!-- Row 6 -->
+							<td>TRiO Student Support Services</td>
+							<td>Federal Grant Program</td>
+							<td>Offers academic advising, tutoring, financial guidance, and transfer assistance for eligible students.</td>
+							<td>Faith Ibarra (Project Director)</td>
+							<td>Sterling H. Fly, Sr. Memorial Bldg (Building S, Uvalde)</td>
+						</tr>
+						<tr><!-- Row 7 -->
+							<td>Ascender Club</td>
+							<td>Academic / Student Program Club</td>
+							<td>Supports student success, leadership, and persistence, often tied to the Ascender cohort framework.</td>
+							<td>Vanessa Uriegas</td>
+							<td>Tate 8 (Uvalde)</td>
+						</tr>
+				</table>
+			</div>
+			
+			<p id="disclaimer" class="tab-desk">Disclaimer: Some data in this chart may now be outdated!</p>
+			
+		</main>
+
+		<footer>
+			<div class="copyright">
+				<p>&copy; Copyright 2026. All Rights Reserved.</p>
+				<p><a href="mailto:swtxc.clubs@swtxc.edu">swtxc.clubs@swtxc.edu</a></p>
+				<p><a href="https://www.swtxc.edu/">Southwest Texas Collage</a></p>
+			</div>
+			<div class="social">
+				<a href="https://www.facebook.com/southwesttexascollege/" target="_blank"><img src="images/facebook-48.png" alt="Facebook logo"></a>
+				<a href="https://x.com/SWTXCollege" target="_blank"><img src="images/x-48.png" alt="X (Twitter) logo"></a>
+				<a href="https://www.instagram.com/southwesttexascollege/" target="_blank"><img src="images/instagram-48.png" alt="Instagram logo"></a>
+			</div>
+		</footer>
+
+	</div>
+	
+		<script src="scripts/script.js"></script>
+	
+</body>
+
+</html>
